@@ -1,7 +1,13 @@
+
+#Ignorar variáveis de ambiente
+.env
+
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -11,6 +17,9 @@ target/
 *.iws
 *.iml
 *.ipr
+
+
+
 
 ### Eclipse ###
 .apt_generated
