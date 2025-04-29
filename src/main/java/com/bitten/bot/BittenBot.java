@@ -45,11 +45,7 @@ public class BittenBot extends TelegramLongPollingBot {
 
         var resposta = "";
 
-        if ("data".equals(textoMensagem)) {
-            resposta = getData();
-        } else if (textoMensagem.startsWith("hora")){
-            resposta = getHora();
-        } else if (textoMensagem.startsWith("/start") ||textoMensagem.startsWith("oi") || textoMensagem.startsWith("oii") || textoMensagem.startsWith("ola") || textoMensagem.startsWith("olá")){
+        if (textoMensagem.startsWith("/start") ||textoMensagem.startsWith("oi") || textoMensagem.startsWith("oii") || textoMensagem.startsWith("ola") || textoMensagem.startsWith("olá")){
                 resposta = "Olá Furioso! O que você precisa hoje? Você pode acessar os comandos com o /comandos";
         } else if(textoMensagem.startsWith("/proximojogo") || textoMensagem.startsWith("proximojogo")){
                 resposta ="Com base no site https://draft5.gg/equipe/330-FURIA, a FURIA ainda não tem um próximo jogo agendado.\n";
@@ -79,14 +75,4 @@ public class BittenBot extends TelegramLongPollingBot {
                 .build();
     }
 
-
-    private String getData() {
-        var formatter = new SimpleDateFormat("dd/MM/yyyy");
-        return "A data atual é: " + formatter.format(new Date());
-    }
-
-    private String getHora() {
-        var formatter = new SimpleDateFormat("HH:mm:ss");
-        return "A hora atual é: " + formatter.format(new Date());
-    }
 }
