@@ -1,4 +1,4 @@
-🤖 Chatbot da FURIA no Telegram
+## Chatbot da FURIA no Telegram
 
 Um chatbot temático da equipe **FURIA Esports** desenvolvido para o **Telegram**, utilizando **Java** e a **Telegram Bot API**. O projeto tem como objetivo fornecer aos fãs da FURIA um canal interativo para acessar informações relevantes sobre o time, como próximos jogos, resultados recentes, elenco, loja e comunidade.
 
