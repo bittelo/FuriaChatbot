@@ -61,5 +61,5 @@ Compartilha links para os **canais oficiais da FURIA**, como Discord, Twitter, I
 
 Desenvolvido por **Pedro Hanza (Bitten)**  
 📧 https://www.linkedin.com/in/pedrohanzabittencourt/ 
-💻 github.com/bittelo
+💻 https://github.com/bittelo
 
