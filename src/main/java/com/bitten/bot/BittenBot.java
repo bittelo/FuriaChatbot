@@ -57,7 +57,7 @@ public class BittenBot extends TelegramLongPollingBot {
                         "Confira a partida: https://draft5.gg/partida/36342-FURIA-vs-The-MongolZ-PGL-Bucharest-2025";
 
         } else if (textoMensagem.startsWith("/comunidade") || textoMensagem.startsWith("comunidade")){
-            resposta = "Converse com outros furiosos!\nDiscord: https://discord.com/invite/furia\n";
+            resposta = "Converse com outros furiosos!\nDiscord: https://discord.com/invite/furia\nInstagram: https://www.instagram.com/furiagg\nX: https://x.com/FURIA";
         } else if(textoMensagem.startsWith("/loja") || textoMensagem.startsWith("loja")){
             resposta = "Vista o estilo FURIA: moda para quem vive o jogo\n https://www.furia.gg/";
         } else if(textoMensagem.startsWith("/elenco") || textoMensagem.startsWith("elenco")){
