@@ -45,8 +45,6 @@ Compartilha links para os **canais oficiais da FURIA**, como Discord, Twitter, I
 
 ## 🔮 Futuras Melhorias
 
-- 🔄 Integração com **APIs esportivas** para atualização automática de partidas.
-- 🔔 Sistema de **notificações** para alertar sobre jogos ao vivo.
 - 🗳️ Criação de novos comandos interativos (enquetes, estatísticas, curiosidades).
 
 ---
